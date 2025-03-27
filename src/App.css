@@ -1,0 +1,69 @@
+.App {
+  text-align: center;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.container {
+  text-align: center;
+  padding: 20px;
+  max-width: 400px;
+  margin: 200px;
+  margin-left: 400px;
+  background: white;
+  box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+  border-radius: 8px;
+}
+
+.input-container {
+  margin-bottom: 10px;
+}
+
+.input-box {
+  display: block;
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 10px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+.blue-button {
+  background-color: rgb(13, 135, 217);
+  color: white;
+  border: none;
+  padding: 10px 15px;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.user-list {
+  list-style: none;
+  padding: 0;
+}
+
+.user-name {
+  font-weight: bold;
+}
+
+.user-email {
+  color:sandybrown;
+}
+
+.user-id{
+  margin-right: 25%;
+  color: black;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
